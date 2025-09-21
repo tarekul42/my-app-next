@@ -1,7 +1,7 @@
 const HomePage = () => {
   return (
     <div>
-      <h1>This is page component</h1>
+      <h1 className="text-4xl">This is page component</h1>
     </div>
   );
 };
