@@ -7,14 +7,18 @@ const ProductsPage = async () => {
     //     cache: "force-cache",
     //   },
     {
-      next: {
-        // revalidate: 10,
-        tags: ["products"],
-      },
+      cache: "no-store",
     }
+    // {
+    //   next: {
+    //     // revalidate: 10,
+    //     tags: ["products"],
+    //   },
+    // }
   );
   const products = await res.json();
   //   console.log(products);
+  
   return (
     <div className="py-6">
       <h1 className="text-center text-2xl">All products</h1>
