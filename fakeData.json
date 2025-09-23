@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "product_name": "Wireless Mouse",
+      "category": "Electronics",
+      "brand": "Logitech",
+      "price": 25.99,
+      "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/logitech-wireless-mouse-optical-Od6kDW4-600.jpg"
+    },
+    {
+      "id": "2",
+      "product_name": "Noise Cancelling Headphones",
+      "category": "Electronics",
+      "brand": "Sony",
+      "price": 199.99,
+      "image": "https://www.pngall.com/wp-content/uploads/5/Bluetooth-Headset-PNG-File-Download-Free.png"
+    },
+    {
+      "id": "3",
+      "product_name": "Running Shoes",
+      "category": "Footwear",
+      "brand": "Nike",
+      "price": 89.95,
+      "image": "https://parspng.com/wp-content/uploads/2023/02/shoespng.parspng.com-14-300x300.png"
+    },
+    {
+      "id": "4",
+      "product_name": "Smart Watch",
+      "category": "Wearables",
+      "brand": "Apple",
+      "price": 399.0,
+      "image": "https://img.favpng.com/10/7/19/apple-watch-series-2-apple-watch-series-3-smartwatch-png-favpng-2d9ngcUZA3fzY3LyMy5bEERT2_t.jpg"
+    },
+    {
+      "id": "5",
+      "product_name": "Coffee Maker",
+      "category": "Home Appliances",
+      "brand": "Keurig",
+      "price": 79.5,
+      "image": "https://image.pngaaa.com/281/2718281-middle.png"
+    },
+    {
+      "id": "6",
+      "product_name": "Electric Toothbrush",
+      "category": "Personal Care",
+      "brand": "Philips",
+      "price": 49.99,
+      "image": "https://atlas-content-cdn.pixelsquid.com/assets_v2/254/2543013061728408832/previews/G03-200x200.jpg"
+    }
+  ]
+}
