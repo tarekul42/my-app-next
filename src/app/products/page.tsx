@@ -1,9 +1,20 @@
 import ProductCard, { Product } from "@/components/products/ProductCard";
 
 const ProductsPage = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch(
+    "http://localhost:5000/products",
+    //     {
+    //     cache: "force-cache",
+    //   },
+    {
+      next: {
+        // revalidate: 10,
+        tags: ["products"],
+      },
+    }
+  );
   const products = await res.json();
-  console.log(products);
+  //   console.log(products);
   return (
     <div className="py-6">
       <h1 className="text-center text-2xl">All products</h1>

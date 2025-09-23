@@ -19,9 +19,9 @@ const ProductCard = ({product}: {product: Product}) => {
       <Image
         src={product.image}
         alt={product.product_name}
-        className="object-cover"
-        width="300"
-        height="192"
+        className="object-cover rounded-t-lg h-48 w-full"
+        width={1500}
+        height={800}
       />
       <div className="p-4">
         <h2 className="text-lg font-semibold">{product.product_name}</h2>
